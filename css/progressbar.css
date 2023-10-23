@@ -23,6 +23,9 @@ body{
     width: 40%;
 }
 
+h1{
+    padding-top: 1rem;
+}
 
 /* INPUT SECTION STYLES */
 .input-progress p{
@@ -36,6 +39,14 @@ body{
 }
 .input-progress span.hover-clickable{
     cursor: pointer;
+}
+
+/* RESET BUTTON STYLES */
+.reset{
+    background-color: #656464;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 5rem;
 }
 
 
