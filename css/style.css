@@ -1,0 +1,90 @@
+/* Page Wide Styling */
+
+* {
+    box-sizing: border-box;
+}
+
+div{
+    /* width: 30%; */
+    margin: 0 auto;
+}
+
+ul{
+    width: 100%;
+    padding-bottom: 2.5%;
+    background: #ccc;
+    list-style-type: none;
+    padding-inline-start: 0%;
+}
+
+ul li{
+    display: inline-flex;
+    align-items: center;
+    width: 30%;
+    margin: 2.5% 0 0 2.5%;
+    position: relative;
+    transition:.6s ease;
+    opacity: 0.5;
+}
+
+ul li img{
+    max-width: 100%;
+    border: 2px solid #eee;
+}
+
+/* li {
+
+} */
+
+/* Gallery 1 Styling */
+
+/* .gal-1 li {
+    transition:.6s ease;
+    opacity: 0.5;
+} */
+
+.gal-1 li:hover{
+    transform: scale(1.4);
+    opacity: 1;
+    box-shadow: 5px 3px 5px rgba(0,0,0,0.3);
+    z-index: 2;
+}
+
+/* Gallery 2 Styling */
+
+/* .gal-2 li {
+    transition:.6s ease;
+    opacity: 0.5;
+} */
+
+.gal-2 li:hover{
+    transform: scale(1.4) rotate(360deg);
+    opacity: 1;
+    box-shadow: 5px 3px 5px rgba(0,0,0,0.3);
+    z-index: 2;
+}
+
+/* Gallery 3 Styling */
+
+.gal-3 li:first-of-type{ 
+    transform:rotate(10deg) translate(0, 10px); 
+}
+
+.gal-3 li:nth-of-type(2){ 
+    transform:rotate(-10deg) translate(0, 10px); 
+}
+
+.gal-3 li:nth-of-type(3){ 
+    transform:rotate(10deg) translate(0, 20px); 
+}
+
+.gal-3 li:nth-of-type(4){
+    transform:rotate(-0deg) translate(20px, -10px); 
+}
+
+.gal-3 li:nth-of-type(5){
+    transform:rotate(10deg) translate(20px, -10px); 
+}
+.gal-3 li:last-of-type{
+    transform:rotate(-10deg) translate(0, 10px); 
+}
