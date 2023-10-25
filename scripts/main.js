@@ -27,4 +27,7 @@ fetch(url)
           img.alt = 'Stock Image ' + imgs[index].id
         }
     })
+    setTimeout(function () {
+      document.querySelector('.overlay').style.display = 'none';
+  }, 3000); 
   }

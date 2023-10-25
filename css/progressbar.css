@@ -25,6 +25,18 @@ body{
 
 h1{
     padding-top: 1rem;
+    color:whitesmoke;
+}
+
+.intro{
+    text-align: center;
+    color:whitesmoke;
+    padding-bottom: 1rem;
+    width: 80%;
+}
+
+.intro a{
+    color:whitesmoke
 }
 
 /* INPUT SECTION STYLES */
