@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+/* html{
+  overflow-x: hidden;
+} */
+
 body {
   background-color: rgb(36, 36, 42);
   display: flex;
@@ -16,7 +20,7 @@ h1 {
 }
 
 .intro {
-  width: 90%;
+  /* width: 90%; */
   text-align: center;
   color: #ffffff;
 }
